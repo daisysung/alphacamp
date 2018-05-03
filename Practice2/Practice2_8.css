@@ -1,0 +1,30 @@
+​.container {
+  background-color: green;
+}
+
+/* Clearfix */
+.container:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0000ff;
+}
+
+#pinkbox{
+  background-color:#ff99ff ;
+}
+
+#hyperbox{
+  position: absolute;
+  left: 212px;
+}
+
+#invisbox{
+  visibility:hidden;
+}
