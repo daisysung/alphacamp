@@ -1,6 +1,6 @@
 <html>
 	<head> <!-- header is for title -->
-		<title>My journey with AlphaCamp</title>
+		<title>Daisy @ AlphaCamp</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -9,19 +9,36 @@
 			.center {
 				margin:auto;
 				width: 50%;
+				text-align: center;
 			}
+			#googleimg{
+				margin-top: 50px;
+			}
+			input[type=text] {
+    		width: 50%;
+    		box-sizing: border-box;
+    		border: 2px solid #ccc;
+    		border-radius: 4px;
+    		font-size: 16px;
+    		background-color: white;
+    		background-image: http://www.supplychainbrain.com/logistics/global-logistics/;
+    		background-position: 10px 10px; 
+    		background-repeat: no-repeat;
+    		padding: 12px 20px 12px 40px;
+			}
+			
 		</style>
 	</head>
 	<body>
 		<nav>
 			
 		</nav> 
-		<div class = "center">
+		<div id = "googleimg" class = "center">
 			<img src ="images/googlelogo.png"/>
 		</div>
-		<div class = "center">
+		<div id = "searchbox" class = "center">
 			<form>
-				<input type="text"></input>
+				<input type="text" name="search" placeholder="Search..">
 			</form>
 		</div>
 		<div>
